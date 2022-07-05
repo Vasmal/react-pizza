@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "debug.javascript.defaultRuntimeExecutable": {
+    
+
+    "pwa-node": "node"
+  }
+}
