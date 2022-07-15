@@ -1,13 +1,17 @@
-@import '../variables';
+@import "../variables";
 
 .header {
   border-bottom: 1px solid $gray-line;
-  padding: 40px 0;
+  padding: 40px 20px;
 
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
   }
 
   &__logo {
@@ -28,5 +32,13 @@
     p {
       color: #7b7b7b;
     }
+
+    @media (max-width: 600px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding: 20px;
   }
 }
